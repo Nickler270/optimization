@@ -1,4 +1,7 @@
+//npm init -y 
 //npm install --save @gltf-transform/core @gltf-transform/extensions @gltf-transform/functions draco3dgltf sharp
+//touch optimizeGLB.js
+//node
 import { Document, NodeIO } from '@gltf-transform/core';
 import { ALL_EXTENSIONS } from '@gltf-transform/extensions';
 import { resample, prune, dedup, draco, textureCompress } from '@gltf-transform/functions';
