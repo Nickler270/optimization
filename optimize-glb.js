@@ -1,6 +1,6 @@
 //npm init -y 
 //npm install --save @gltf-transform/core @gltf-transform/extensions @gltf-transform/functions draco3dgltf sharp
-//touch optimizeGLB.js
+//touch/nano optimizeGLB.js  (optional)
 //node
 import { Document, NodeIO } from '@gltf-transform/core';
 import { ALL_EXTENSIONS } from '@gltf-transform/extensions';
