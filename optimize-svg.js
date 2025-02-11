@@ -1,6 +1,6 @@
-import { optimize } from 'svgo';  //npm install svgo
-import fs from 'fs';
-import path from 'path';
+const svgo = require('svgo');
+const fs = require('fs');
+const path = require('path');
 
 // Function to compress an SVG file
 async function compressSVG(inputPath, outputPath) {
